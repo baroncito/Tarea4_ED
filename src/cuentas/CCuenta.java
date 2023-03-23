@@ -1,58 +1,62 @@
+/**
+ * @author Juan Carlos M B
+ * @version 1
+ */
 package cuentas;
 
 public class CCuenta {
 
     /**
-     * @return the nombre
+     * @return nombre
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param nombre 
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * @return the cuenta
+     * @return cuenta
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
-     * @param cuenta the cuenta to set
+     * @param cuenta 
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
     /**
-     * @return the saldo
+     * @return saldo
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * @param saldo the saldo to set
+     * @param saldo 
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
     /**
-     * @return the tipoInterés
+     * @return tipoInterés
      */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
     /**
-     * @param tipoInterés the tipoInterés to set
+     * @param tipoInterés 
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
